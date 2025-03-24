@@ -34,10 +34,10 @@ function App() {
         <WalletProvider wallets={[]} autoConnect>
           <WalletModalProvider>
             <WalletMultiButton />
-            <Airdrop />
-            <RequestAirdrop />
+            {/* <Airdrop />
+            <RequestAirdrop /> */}
             {/* <SendTokens /> */}
-            {/* <SignMessage /> */}
+            <SignMessage />
           </WalletModalProvider>
         </WalletProvider>
       </ConnectionProvider>
